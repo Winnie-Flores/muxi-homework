@@ -12,6 +12,7 @@
         }
         return sum;
        }
+       //step
        function rangeplus(start,end,step){
         if(!step) step=1;
         let b=[];
