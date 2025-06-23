@@ -1,0 +1,274 @@
+body{
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+    background-color: aliceblue;
+}
+.three{
+    background-color: white;
+}
+.lead{
+    height: 50px;
+    margin-top: 0;
+    background-color: white;
+    display: flex;
+}
+.logo{
+    float: left;
+    width: 80px;
+    height: 50px;
+}
+.dhl{
+    width: 80px;
+    background-color: transparent;
+    border: 0;
+    height: 50px;
+    float: left;
+}
+.dhl:hover{
+    color: red;
+    border-top: 3px solid red;
+}
+.search1{
+    margin-top:9px;
+    width: 260px;
+    height:30px;
+    display: flex;
+    margin-right: 10px;
+    float: left;
+}
+.search2{
+    float: left;
+    width: 230px;
+    height: 30px;
+    border-color: rgb(216, 48, 48);
+}
+.sign{
+    float: left;
+    width: 70px;
+    height: 30px;
+    border: 2px;
+    border-color: black;
+}
+.others{
+   position: absolute;
+   right: 0;
+}
+.photo{
+    float: left;
+    margin-right:0 ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: url(笑脸.jpeg);
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.login{
+    background-color: rgb(106, 212, 177);
+    margin-top: 10px;
+    width: 80px;
+    height:30px;
+    float: left;
+    border-color: rgb(106, 212, 177);
+    color: white;
+}
+.cehua{
+    width: 800px;
+}
+.gong{
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px ;
+    
+    border-color: aquamarine;
+    float: left;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{color: red;}
+.zi{
+    margin-left: 30%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size:xx-large;
+    border: 2px solid rgb(106, 212, 177) ;
+    border-radius: 50%;
+    align-items: center;
+    color: rgb(106, 212, 177);
+    font-weight: 180;
+    margin-top:30px ;  
+}
+.zi:hover{
+    background-color: rgb(53, 183, 139);
+}
+.ul1{
+    border-left: 1px solid grey;
+}
+.ul2{
+    list-style-type: none;
+    margin-left: -25%;
+    font-size: small;
+    font-weight: 25;
+}
+.cross{
+    text-align: center;
+}
+.three{
+    height: 350px;
+    margin-top: 15px;
+    border-top: 2px solid grey;
+}
+.four{
+    margin-top: 30px;
+  
+}
+h2,h4{
+    text-align: center;
+    line-height: 0.5;
+}
+h4{
+    color:rgb(106, 212, 177);
+}
+h2{
+    color: grey;
+}
+.line1,.line2{
+    width: 800px;
+    height: 80px;
+}
+.firstline{
+    float: left;
+    
+}
+.secondline{
+    
+    float: left;
+}
+.NO1,.NO2,.NO3,.NO4,.NO5{
+    width: 150px;
+    height: 130px;
+    border: 5px solid; 
+    border-color: rgb(78, 203, 155);
+    text-align: center;  
+}
+.NO1:hover{
+    background-color: rgb(78, 203, 155);
+}
+.NO2:hover{
+    background-color: rgb(78, 203, 155);
+}
+.NO3:hover{
+    background-color: rgb(78, 203, 155);
+}
+.NO4:hover{
+    background-color: rgb(78, 203, 155);
+}
+.NO5:hover{
+    background-color: rgb(78, 203, 155);
+}
+.number{
+    width: 150px;
+    height: 130px;
+    position: relative;
+}
+.n1,.n2,.n3,.n4,.n5{
+    text-decoration: underline 3px  ;
+    color: rgb(251, 4, 4);
+    font-weight: 200;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid transparent;
+}
+.c1,.c2,.c3,.c4,.c5{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;  
+}
+
+.course1{
+    width: 150px;
+    gap: 10px;
+    float:left
+}
+.five{
+    float: left;
+    width: 800px;
+    margin-top: 20px;
+    border-top: 2px solid grey;
+}
+
+.courseguess{
+    width: 800px;
+    height: 200px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+.course1{
+   position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    text-align: center;
+
+}
+.book{
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(229, 134, 134);
+    text-align: center;
+    position: relative;
+    background-color: rgb(241, 108, 121);
+}
+.book:hover{
+    background-color: rgb(246, 48, 48);
+}
+.animationphoto{
+    position: absolute;
+    top: 0px;  
+    z-index: -1;
+    transition: top 2s ease; 
+    opacity: 0;
+}
+.book:hover .animationphoto{
+    top: -40px;
+    opacity: 1;
+}
+.word{
+    color: white;
+    margin-top: 20%;
+}
+.six{
+    clear: both;
+    margin: 0;
+    height: 100%;
+}
+.content{
+    min-height: 100%;
+    margin-bottom: -50px;
+    background-color: #060303b6;
+}
+.push,.footer{
+    height: 50px;
+}
+.rabbitsign{
+    text-align: center;
+}
+.word2{
+    font-size: medium;
+    text-align: center;
+    text-decoration: overline;
+}
+span{
+    color: white;
+}

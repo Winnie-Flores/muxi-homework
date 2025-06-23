@@ -1,0 +1,24 @@
+#header{
+    background-color: #cdd3de;
+  }
+  #content{
+    background-color: #f0b7c0;
+    float: left;
+    width: 50%;
+  }
+  #sidebar{
+    background-color: #f0d2e6;
+    float: left;
+    width: 20%;
+  }
+  #sidebar2{
+    background-color: #c3eedf;
+    float: left;
+    width: 30%;
+  }
+  #footer{
+    clear: both;
+    background-color: #f7f9c7;
+  }
+  
+  
