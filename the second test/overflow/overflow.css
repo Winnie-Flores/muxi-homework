@@ -1,0 +1,439 @@
+body{
+    margin:0 auto;
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+.header{
+    background-color: white;
+    position: fixed;
+    margin-top: 0px;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+.logo{
+    width: 150px;
+    height: 50px;
+}
+.headline{
+    margin: 0 auto;
+    border-bottom:1px solid rgb(224, 220, 220);
+    display: flex;
+    width: 1400px;
+}
+.headbutton{
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    width: 100px;
+    height: 25px;
+    color: gray;
+    background-color: white;
+}
+.headbutton:hover{
+    background-color: rgb(177, 173, 173);
+}
+.searchcontent{
+    margin-top: 10px;
+    width: 650px;
+    height: 30px;
+    color: rgb(154, 152, 152);
+    border: 2px solid rgb(221, 218, 218);
+}
+.headright{
+    margin-top: 10px;
+    float: right;
+    height: 50px;
+}
+.Login{
+    height: 30px;
+    width: 80px;
+    border: 2px solid rgb(86, 156, 230);
+    color: rgb(86, 156, 230);
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.Signup{
+    height: 30px;
+    width: 80px;
+    border: 2px solid rgb(86, 156, 230);
+    background-color:rgb(86, 156, 230) ;
+    color: white;
+    border-radius: 3px;
+}
+.headbelow{
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 1600px;
+    z-index: -100;
+}
+.leftline{
+    width: 220px;
+    border-right: 2px solid rgb(217, 211, 211);
+    height: 500px;
+    position: sticky;
+    top: 100px;
+}
+.left{
+    text-align: left;
+    float: left;
+    width: 200px;
+    height: 40px;
+    border: 0 solid transparent;
+    background-color: white;
+    color: rgb(81, 79, 79);
+}
+.left:hover{
+    background-color: rgb(180, 173, 173);
+    color: black;
+}
+.little{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    float:left
+}
+.subtitle{
+    font-weight: 700;
+    float: left;
+    width: 220px;
+    height: 40px;
+    border: 0 solid transparent;
+}
+.leftteams{
+    float: left;
+    width: 220px;
+    height: 70px;
+    border: 0 solid transparent;
+}
+.sentencebold{
+    font-weight: 700;
+    font-size: small;
+}
+.sentencethin{
+    font-size: small;
+}
+.Learnmore{
+    height: 40px;
+    width: 220px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+.ExploreTeams{
+    height: 40px;
+    width: 220px;
+    color: gray;
+    border-radius: 5px;
+}
+.main{
+    width: 1300px;
+    float: right;
+}
+.question{
+    display: flex;
+    height: 180px;
+    width: 900px;
+    border-bottom: 1px solid rgb(213, 210, 210);
+}
+.ask{
+    width: 100px;
+    margin-top: 30px;
+    
+}
+.Askbutton{
+    background-color: rgb(1, 122, 243);
+    height: 40px;
+    border: 1px solid rgb(112, 182, 217);
+    color: white;
+    border-radius: 10px;
+}
+.Qcontent{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.information{
+    font-size: medium;
+}
+.Qcontent,.information{
+    width: 1000px;
+    float: left;
+    margin-left: 10px;
+}
+.intitle{
+    color: gray;
+    font-size: smaller;
+}
+.in{
+    font-size: smaller;
+}
+.questionbelow{
+    display: flex;
+    width: 1000px;
+}
+.post{
+    float: left;
+    width: 1400px;
+}
+.post1{
+    float: left;
+    height: 280px;
+    margin-left: 30px;
+    border-bottom: 1px solid rgb(205, 203, 203);
+}
+.post1share{
+    color: gray;
+    font-size: smaller;
+    float: left;
+    width: 300px;
+}
+.posttime{
+    width: 140px;
+    text-align: center;
+    color: rgb(110, 164, 209);
+    float: left;
+}
+.authorcard{
+    width: 170px;
+    height: 70px;
+    background-color: rgb(234, 243, 252);
+    border: 2px solid rgb(234, 243, 252);
+    float: right;
+    border-radius: 10px;
+}
+.photocard{
+    width: 40px;
+    height: 40px;
+}
+.profile{
+    
+    display: none;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(83, 77, 77);
+    border-radius: 5px;
+}
+
+.container:hover .profile{
+    transition: 2s ease-in;
+    display: block;
+    z-index: 1000;
+}
+.asktime{
+    margin-top: 0;
+    color: gray;
+    height: 10px;
+}
+.photo{
+    margin-top: 0;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.name{
+    color: rgb(54, 135, 221);
+}
+.view{
+    font-size: smaller;
+}
+.like{
+    color: gray;
+    font-size: smaller;
+}
+.comment{
+    margin-left: 30px;
+    float: left;
+    width: 880px ;
+    height: 300px;
+    margin-right: 30px;
+}
+.comment1{
+    height: 70px;
+    border-bottom: 1px solid rgb(205, 203, 203);
+}
+.commentshare{
+    font-size: smaller;
+    color: rgb(54, 135, 221);
+}
+.Answer{
+    margin-top: 150px;
+    float: left;
+    width: 900px;
+    height: 450px;
+    border-bottom:  1px solid rgb(205, 203, 203);
+}
+.answerhead{
+    height: 30px;
+}
+.numberanswer{
+    margin-left: 10px;
+    float: left;
+    font-size: xx-large;
+    font-weight: 800;
+}
+.sort{
+    float: right;
+    margin-right: 30px;
+}
+.sorted{
+    font-size: medium;
+    color: gray;
+    font-size: large;
+}
+.answercontent{
+    margin-left: 30px;
+}
+.answershare{
+    border: 0 solid transparent;
+    color: gray;
+    background-color: white;
+}
+.answerinformation{
+    height: 100px;
+}
+.youranswer{
+    height: 200px;
+    float: left;
+    width: 800px;
+}
+.typein{
+    height: 150px;
+    width:800px
+}
+.yours{
+    float: left;
+    width: 800px;
+    font-size: x-large;
+    font-weight: 700;
+}
+.others{
+    display: flex;
+    margin-top: 260px;
+    width: 520px;
+    float: left;
+}
+.signorlog{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+}
+.othertitle{
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: 500;
+}
+.log{
+    color: rgb(54, 135, 221);
+}
+.sign{
+    width: 400px;
+    height: 30px;
+    margin-left: px;
+}
+.guest{
+    margin-left: 110px;
+    float: left;
+    width: 300px;
+}
+.posttitle{
+    font-weight: 500;
+}
+.postin{
+    width: 400px;
+    height: 25px;
+}
+.tip{
+    font-size:x-small;
+    color: gray;
+}
+.postyouranswer{
+    display: flex;
+    width: 900px;
+    margin-top: 00px;
+}
+.postbutton{
+    width: 150px;
+    height: 40px;
+    float: left;
+    border: 2px solid rgb(127, 185, 227);
+    border-radius: 5px;
+    background-color: rgb(127, 185, 227);
+    color: white;
+}
+.postbutton:hover{
+    background-color: rgb(22, 103, 216);
+}
+.explanation{
+    font-size: small;
+}
+.service{
+    color: blue;
+}
+.rightcard{
+    width: 230px;
+    border: 1px solid rgb(249, 227, 149);
+    border-radius: 5px;
+    background-color: rgb(249, 227, 149);
+}
+.title1{
+    
+    height: 40px;
+    border-bottom: 1px solid rgb(249, 234, 181);
+    background-color: rgb(245, 207, 160);
+}
+.blogcontent{
+    height: 40px;
+    background-color: antiquewhite;
+}
+.related{
+    width: 230px;
+}
+.relatedtitle{
+    height: 40px;
+    font-weight: 600;
+    font-size: large;
+}
+.relatedbelow{
+    display: flex;
+}
+.number{
+    float: left;
+    width: 50px;
+    background-color: green;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.relatedcontent{
+    width: 80px;
+    height: 30px;
+    float: left;
+}
+.footer{
+    position: absolute;
+    margin-top: 2000px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footblock{
+    width: 160px;
+    float: left;
+}
+.title3{
+   margin-left: 30px;
+}
+.footcontent{
+    margin-left: 30px;
+    font-size: small;
+    font-weight: 400;
+}
