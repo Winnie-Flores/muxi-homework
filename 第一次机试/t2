@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>t2</title>
+    <link rel="stylesheet" href="t2.css">
+</head>
+<body>
+    <div class="size">
+        <span class="ballshadow"></span>
+        <span class="ball" ></span>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+button:hover{
+    background: rgb(21, 171, 21);
+    
+}
+button{
+    width:100px;
+    display: block;
+    margin: 50%;
+    background-color: aliceblue;
+    border-color: rgb(216, 222, 216);
+}
+button:active{
+    
+}
+.div{
+    margin-left: 100px;
+}
+.box{
+    height: auto;
+    width: 200px;
+    background-color: antiquewhite;
+    transition: width 2s;
+    margin-left: 80%;
+    
+}

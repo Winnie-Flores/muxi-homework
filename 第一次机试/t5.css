@@ -1,0 +1,40 @@
+.body{
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.dance{
+  border:1px solid;
+  width:600px;
+  height:200px;
+  position: relative;
+
+}
+.ball{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: calc(var(--i)*100px);
+  animation: jump 3s linear infinite calc(var(--i)*0.3s);
+}
+@keyframes jump{
+  0%{
+    top:0;
+  }
+  30%{
+    top:80px;
+  }
+  50%{
+    top:100px;
+  }
+  75%{
+    top:50%;
+  }
+  100%{
+    top:0;
+  }
+}

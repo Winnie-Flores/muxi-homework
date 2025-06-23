@@ -1,0 +1,44 @@
+.first{
+    
+    width:0px;
+    height: 0px;
+    border-top: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid green ;
+    border-left: 100px solid transparent;
+    margin-left: 50px;
+    
+}
+.second{
+
+    width:0;
+    height:0;
+    border-top: solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid green ;
+    border-left: 150px solid transparent;
+    margin-top:-20px; 
+}
+.third{
+    width:0;
+    height:0;
+    border-top:  solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid green ;
+    border-left: 200px solid transparent; 
+    margin-left: -50px;
+    margin-top: -30px;
+}
+.fourth{
+    width:0;
+    height: 200px;
+    border-top: 50px solid brown;
+    border-right: 50px solid brown;
+    border-bottom: 50px solid brown;
+    margin-left: 120px;
+    
+}
+.tree{
+    padding-left: 50%;
+ 
+}
